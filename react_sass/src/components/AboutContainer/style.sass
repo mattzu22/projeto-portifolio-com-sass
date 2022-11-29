@@ -16,7 +16,7 @@
 
         &:after
            @include mixins.gradient-border
-
+            
     p
         color: variables.$text-color-secondary
         margin-bottom: 1rem
@@ -24,9 +24,24 @@
 
     .btn
         @include mixins.btn   
-        align-self: start       
-           
-            
+        align-self: start  
+
+@media (max-width: 768px)
+    .about
+        p
+            height: 200px
+            overflow: auto
+
+        p::-webkit-scrollbar 
+            width: 10px           
+        
+        p::-webkit-scrollbar-track 
+            background: transparent      
+        
+        p::-webkit-scrollbar-thumb 
+            background-color: white
+            border-radius: 20px     
+                      
 
            
             

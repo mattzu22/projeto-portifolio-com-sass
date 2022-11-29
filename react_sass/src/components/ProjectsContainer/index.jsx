@@ -1,5 +1,4 @@
 import './style.sass'
-import gerador from '../../img/geradordeconselhos.png'
 
 export const Projects = () =>{
     return(
@@ -8,7 +7,7 @@ export const Projects = () =>{
         
             <div className='slider-projects'>
                 <a className='gerador'  href='https://github.com/mattzu22/gerador-conselhos-React' target='_blank'>
-                    
+    
                 </a>
                 <a className='aluratube' href='https://github.com/mattzu22/aluratube' target='_blank'>
                 

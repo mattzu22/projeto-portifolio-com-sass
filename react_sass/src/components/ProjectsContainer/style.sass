@@ -16,11 +16,6 @@
         &:after
            @include mixins.gradient-border
 
-    p
-        color: variables.$text-color-secondary
-        margin-bottom: 1rem
-        line-height: 1.4rem
-
     .slider-projects
             @include mixins.flexCenter
             flex: 2 1 0
@@ -28,12 +23,22 @@
             flex-wrap: wrap
 
     a
+        @include mixins.flexCenter 
         width: 225px
         height: 350px
+        border-radius: 5px
 
-        &:hover
-            opacity: 0.6
+        &:hover   
+            opacity: 0.3
 
+        
+    
+
+      
+
+
+        
+        
 
     .gerador
         background: url(../../img/geradordeconselhos.png) center center no-repeat
