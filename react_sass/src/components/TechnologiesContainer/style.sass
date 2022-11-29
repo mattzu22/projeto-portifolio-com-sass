@@ -24,15 +24,18 @@
 
     .technologies-grid
         display: flex
+        justify-content: space-between
         flex-wrap: wrap
         gap: 1.5rem
 
+
     .card
         @include mixins.flexCenter
+        flex-direction: column 
+        width: 450px
         gap: 1rem
         padding: 1rem
         border: 1px solid #333
-        widows: 45%
         border-radius: variables.$card-border-radius
         
         h3

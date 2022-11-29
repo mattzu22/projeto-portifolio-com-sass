@@ -1,15 +1,28 @@
 import './style.sass'
+import gerador from '../../img/geradordeconselhos.png'
 
 export const Projects = () =>{
     return(
         <section className='projects'>
             <h2>Projetos</h2>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, alias! Fugit architecto assumenda velit ex dicta, repellendus, ea voluptatum, tempora perspiciatis ullam debitis praesentium pariatur aliquid. Praesentium perspiciatis beatae voluptatibus?
-            </p>
-            <a href="#" className='btn'>
+        
+            <div className='slider-projects'>
+                <a className='gerador'  href='https://github.com/mattzu22/gerador-conselhos-React' target='_blank'>
+                    
+                </a>
+                <a className='aluratube' href='https://github.com/mattzu22/aluratube' target='_blank'>
+                
+                </a>
+                <a className='fylo' href='https://github.com/mattzu22/pagina-fylo' target='_blank'>
+                
+                </a>
+                <a className='github-api' href='https://github.com/mattzu22/projeto-fetch-github-api' target='_blank'>
+            
+                </a>
+            </div>
+            {/* <a href="#" className='btn'>
                 Ver Projetos
-            </a>
+            </a> */}
         </section>
     )
 }

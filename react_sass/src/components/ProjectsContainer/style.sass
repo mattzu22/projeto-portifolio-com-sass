@@ -1,7 +1,6 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
 
-
 .projects
     display: flex
     flex-direction: column
@@ -22,7 +21,41 @@
         margin-bottom: 1rem
         line-height: 1.4rem
 
+    .slider-projects
+            @include mixins.flexCenter
+            flex: 2 1 0
+            gap: 3rem
+            flex-wrap: wrap
+
+    a
+        width: 225px
+        height: 350px
+
+        &:hover
+            opacity: 0.6
+
+
+    .gerador
+        background: url(../../img/geradordeconselhos.png) center center no-repeat
+        background-size: cover   
+
+    .aluratube
+        background: url(../../img/aluratube.png) center center no-repeat
+        background-size: cover 
+
+    .fylo
+        background: url(../../img/fylo.png) center center no-repeat
+        background-size: cover 
+
+    .github-api
+        background: url(../../img/apigithub.png) center center no-repeat
+        background-size: cover      
+
+    img
+        width: 100%
+
+
     .btn
-        @include mixins.btn   
-        align-self: start       
+            @include mixins.btn   
+            align-self: start       
            
