@@ -2,7 +2,7 @@ import Avatar from "../../img/perfil.png"
 import { InformacionContainer } from "../InformationContainer"
 import { SocialNetWorks } from "../SocialNetWorks"
 import './style.sass'
-import curriculo from '../../img/curriculo.pdf'
+// import curriculo from '../../img/curriculo.pdf'
 
 
 export const SideBar = () =>{
@@ -12,9 +12,9 @@ export const SideBar = () =>{
             <p className="title">Desenvolvedor web</p>
             <SocialNetWorks />
             <InformacionContainer />
-            <a href={curriculo} download className="btn">
+            {/* <a href={curriculo} download className="btn">
                 Dowload currículo
-            </a>
+            </a> */}
         </aside>
     )
 }
