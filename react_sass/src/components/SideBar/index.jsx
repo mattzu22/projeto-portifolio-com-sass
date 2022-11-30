@@ -2,7 +2,7 @@ import Avatar from "../../img/perfil.png"
 import { InformacionContainer } from "../InformationContainer"
 import { SocialNetWorks } from "../SocialNetWorks"
 import './style.sass'
-import curriculo from '../../img/curriculo.pdf'
+import curriculo from '../../../public/Curriculo.pdf'
 
 
 export const SideBar = () =>{
